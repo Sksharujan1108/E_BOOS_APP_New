@@ -2,9 +2,10 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Routes from './src/navigation/Routes';
 import { Provider } from 'react-redux';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import LoadingProvider from './src/navigation/LoadingProvider';
 import store from './src/feature/store';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import React from 'react';
+
 
 export default function App() {
   return (
